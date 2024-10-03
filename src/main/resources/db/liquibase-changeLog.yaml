@@ -1,4 +1,10 @@
 databaseChangeLog:
-  - includeAll:
-      path: tables/
+  - include:
+      file: enums/status.sql
+      relativeToChangelogFile: true
+  - include:
+      file: tables/product_category.sql
+      relativeToChangelogFile: true
+  - include:
+      file: tables/product.sql
       relativeToChangelogFile: true
