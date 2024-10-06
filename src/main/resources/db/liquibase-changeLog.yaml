@@ -8,3 +8,9 @@ databaseChangeLog:
   - include:
       file: tables/product.sql
       relativeToChangelogFile: true
+  - include:
+      file: tables/roles.sql
+      relativeToChangelogFile: true
+  - include:
+      file: tables/user.sql
+      relativeToChangelogFile: true
